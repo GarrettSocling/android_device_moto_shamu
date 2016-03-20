@@ -379,7 +379,7 @@
     <integer name="config_bluetooth_tx_cur_ma">46</integer>
     <integer name="config_bluetooth_operating_voltage_mv">3500</integer>
 
-    <!-- Wheter to enable doze always on -->
+    <!-- Whether to enable doze always on -->
     <bool name="config_enableDozeAlwaysOn">true</bool>
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
@@ -405,6 +405,6 @@
     <bool name="config_multiColorBatteryLed">true</bool>
 
     <!-- Do the battery/notification LEDs support pulsing? Used to decide if we show pulse settings -->
-    <bool name="config_ledCanPulse">false</bool>
+    <bool name="config_ledCanPulse">true</bool>
 
 </resources>
